@@ -1,7 +1,7 @@
 import { Torrent } from "./Torrent";
 
 export interface GalleryMetadata {
-    gid: string;
+    gid: number;
     token: string;
     archiver_key: string;
     title: string;
