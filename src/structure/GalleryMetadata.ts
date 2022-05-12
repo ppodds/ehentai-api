@@ -1,6 +1,6 @@
 import { Torrent } from "./Torrent";
 
-export interface Book {
+export interface GalleryMetadata {
     gid: string;
     token: string;
     archiver_key: string;
